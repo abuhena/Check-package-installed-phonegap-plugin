@@ -28,5 +28,6 @@ window.plugins.CheckAppInstalledPlugin.get(function(json){ //success callback },
     
     
 Install this plugin:
-     cordova plugin add https://github.com/abuhena/Check-package-installed-phonegap-plugin.git
+
+    cordova plugin add https://github.com/abuhena/Check-package-installed-phonegap-plugin.git
      
