@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.anonnafrontend.CheckAppInstalledPlugin"
+    version="1.0.0">
+	<license>Apache 2.0 License</license>
+	<asset src="www/CheckAppInstalledPlugin.js" target="CheckAppInstalledPlugin.js" />
+	<platform name="android">
+	<source-file src="src/com/anonnafrontend/CheckAppInstalledPlugin.java" target-dir="src/com/anonnafrontend/" />
+	</platform>
+</plugin>
