@@ -4,10 +4,10 @@ PhoneGap Android installed package check plugin
 It's being easy to check an application installed on device by the associate package name
 Just a line 
 
-window.plugins.CheckAppInstalledPlugin.get(function(json){ //success callback }, function(json){ //error callback }, "package name");
+`window.plugins.CheckAppInstalledPlugin.get(function(json){ //success callback }, function(json){ //error callback }, "package name");`
 
 # Example:
-
+```javascript
      window.plugins.CheckAppInstalledPlugin.get(function(data){
         var json_data = Ext.JSON.decode(data);
         if(json_data.installed)
@@ -25,7 +25,7 @@ window.plugins.CheckAppInstalledPlugin.get(function(json){ //success callback },
     function(err){
         alert('Error', 'Error to open Google Maps');
     }, 'com.google.android.apps.maps');
-    
+```    
     
 Install this plugin:
 
